@@ -1,0 +1,544 @@
+<resources>
+    <string name="app_name">Cinepolis_Conteo_Fisico</string>
+    <string name="title_activity_almacen">Almacen</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_dulceria">Dulceria</string>
+
+    <string name="prueba">Esto es una prueba:
+    1
+    2
+    3
+    4
+    5
+        6
+        7
+        8
+        9
+        10
+        11
+        12
+        13
+        14
+
+    </string>
+
+
+    <string name="presentaciones">
+        CAFE / C FRIAS / LACTEOS
+Leche Deslactosada G. – Litros – LTS
+•	Cajas: Contienen 12 cartones de leche de 1 litro
+•	Piezas: Cartones de leche de 1 litro sueltos
+Leche Light G. – Litros – LTS
+•	Cajas: Contienen 12 cartones de leche de 1 litro
+•	Piezas: Cartones de leche de 1 litro sueltos
+Leche G. – Litros – LTS
+•	Cajas: Contienen 12 cartones de leche de 1 litro
+•	Piezas: Cartones de leche de 1 litro sueltos
+Jamón Cerdo G. – Rebanadas – REB
+•	Paquetes: Contienen 14 rebanadas de jamón
+Queso Americano G. – Rebanadas – REB
+•	Paquetes: Contienen 100 rebanadas de queso americano
+•	Piezas: Rebanadas de queso americano sueltas
+Queso Crema Philadelphia G. – Gramos – GRS
+•	Barras: Contienen 1900 gramos de queso crema philadelphia
+Queso Manchego G. – Gramos – GRS
+•	Barras: Contienen 3500 gramos de queso manchego
+CAFE / CREPA
+Harina Para Crepas Chocolate Oscuro – Gramos – GRS
+•	Paquetes: Contienen 100 gramos de harina para crepa de chocolate oscuro
+La Lechera G. – Gramos – GRS
+•	Bolsas: Contienen 11,000 gramos de lechera
+Champiñon Rebanado G. – Gramos – GRS
+•	Latas: Contienen 380 gramos de champiñón rebanado
+Relleno Manzana Canela – Gramos – GRS
+•	Botes: Contienen 4500 gramos de relleno de manzana canela
+
+Cajeta G. – Gramos – GRS
+•	Cubetas: Contienen 25,000 gramos de cajeta
+Mermelada De Fresa G. – Gramos – GRS
+•	Frascos: Contienen 980 gramos de mermelada de fresa
+Mermelada De Zarzamora G. – Gramos – GRS
+•	Frascos: Contienen 980 gramos de mermelada de fresa
+Nutella G. – Gramos – GRS
+•	Botes: Contienen 1,000 gramos de nutella
+Harina Preparada Crepas – Gramos – GRS
+•	Bolsas: Contienen 1,500 gramos de harina preparada para crepas
+Relleno Pay De Limón – Gramos – GRS
+•	Botes: Contiene 1,000 gramos de relleno de pay de limón
+Dip Relleno Oreo – Gramos – GRS
+•	Bolsas: Contienen 1,000 gramos de dip de relleno de oreo
+CAFE / ENVASES
+Vaso 12 Onz Plástico Pet General – Piezas – PZA
+•	Cajas: Contienen 1,000 piezas de vasos
+•	Mangas 50: Contienen 50 piezas de vasos
+•	Mangas 25: Contienen 25 piezas de vasos
+Vaso 16 Onz Plástico Pet General – Piezas – PZA
+•	Cajas: Contienen 1,000 piezas de vasos
+•	Mangas 50: Contienen 50 piezas de vasos
+•	Mangas 25: Contienen 25 piezas de vasos
+Vaso 20 Onz Plástico Pet General – Piezas – PZA
+•	Cajas: Contienen 1,000 piezas de vasos
+•	Mangas 50: Contienen 50 piezas de vasos
+•	Mangas 25: Contienen 25 piezas de vasos
+Vaso 4 Oz G. – Piezas – PZA
+•	Mangas 50: Contienen 50 piezas de vasos
+
+
+
+
+Vaso Trophy 12 Onz General – Piezas – PZA
+•	Cajas: Contienen 1,000 piezas de vasos
+•	Mangas 50: Contienen 50 piezas de vasos
+•	Mangas 25: Contienen 25 piezas de vasos
+Vaso Trophy 16 Onz General – Piezas – PZA
+•	Cajas: Contienen 1,000 piezas de vasos
+•	Mangas 50: Contienen 50 piezas de vasos
+•	Mangas 25: Contienen 25 piezas de vasos
+Vaso Trophy 20 Onz General – Piezas – PZA
+•	Cajas: Contienen 1,000 piezas de vasos
+•	Mangas 50: Contienen 50 piezas de vasos
+•	Mangas 25: Contienen 25 piezas de vasos
+CAFE / FRAPPE
+Topping Sabor Fresa Chupa Chups – Gramos – GRS
+•	Bolsas: Contienen 5,000 gramos de topping sabor fresa chupa chups
+CAFE / ING
+Polvo Cuarto Menguante – Gramos – GRS
+•	Cajas: Contienen 5 bolsas de polvo de frappe de 1,600 gramos cada una.
+•	Bolsas: Contienen 1,600 gramos de polvo de frappe
+Polvo Frambuesa, Arandano y Grosella – Gramos – GRS
+•	Cajas: Contienen 5 bolsas de polvo de frappe de 1,600 gramos cada una.
+•	Bolsas: Contienen 1,600 gramos de polvo de frappe
+Polvo Para Frappe Mango Coco – Gramos – GRS
+•	Cajas: Contienen 5 bolsas de polvo de frappe de 1,600 gramos cada una.
+•	Bolsas: Contienen 1,600 gramos de polvo de frappe
+Polvo Para Frappe Piña Colada – Gramos – GRS
+•	Cajas: Contienen 5 bolsas de polvo de frappe de 1,600 gramos cada una.
+•	Bolsas: Contienen 1,600 gramos de polvo de frappe
+Polvo FrapPops Nerds – Gramos – GRS
+•	Cajas: Contienen 5 bolsas de polvo de frappe de 1,600 gramos cada una.
+•	Bolsas: Contienen 1,600 gramos de polvo de frappe
+Polvo Para Frappe Manzana Verde – Gramos – GRS
+•	Cajas: Contienen 5 bolsas de polvo de frappe de 1,600 gramos cada una.
+•	Bolsas: Contienen 1,600 gramos de polvo de frappe
+Chamoy Sabor Chabacano ML – Mililitros – MIL
+•	Botes: Contienen 1,000 mililitros de chamoy sabor chabacano
+Polvo Base Capuccino G. – Gramos – GRS
+•	Cajas: Contienen 5 bolsas de polvo de frappe de 1,600 gramos cada una.
+•	Bolsas: Contienen 1,600 gramos de polvo de frappe
+Polvo Base Chocolate G. – Gramos – GRS
+•	Cajas: Contienen 5 bolsas de polvo de frappe de 1,600 gramos cada una.
+•	Bolsas: Contienen 1,600 gramos de polvo de frappe
+Polvo Base Moka Caramelo G. – Gramos – GRS
+•	Cajas: Contienen 5 bolsas de polvo de frappe de 1,600 gramos cada una.
+•	Bolsas: Contienen 1,600 gramos de polvo de frappe
+Base Rich G. – Mililitros – MIL
+•	Cajas: Contienen 12 cartones con 907 mililitros de base rich
+•	Cartones: Contienen 907 mililitros de base rich
+Jarabe De Caramelo G. – Mililitros – MIL
+•	Botes: Contienen 1,890 mililitros de jarabe de caramelo
+Galleta Oreo G. – Piezas – PZA
+•	Paquetes: Contienen 10 piezas de galleta oreo
+Salsa De Chocolate Bco. G. – Mililitros – MIL
+•	Botes: Contienen 1,890 mililitros de salsa de chocolate blanco
+Salsa De Chocolate G. – Mililitros – MIL
+•	Botes: Contienen 1,890 mililitros de salsa de chocolate oscuro
+Café Descafeinado G. – Gramos – GRS
+•	Bolsas: Contienen 1,000 gramos de café descafeinado
+Café Regular – Gramos – GRS
+•	Bolsas: Contienen 1,000 gramos de café regular
+Esencia Amaretto G. – Onzas – ONZ
+•	Botellas: Contienen 25 onzas de esencia de amaretto
+Esencia Crema Irlandesa G.  – Onzas – ONZ
+•	Botellas: Contienen 25 onzas de esencia de crema irlandesa
+
+Esencia Menta G. – Onzas – ONZ
+•	Botellas: Contienen 25 onzas de esencia de menta
+Esencia Vainilla Botella G. – Onzas – ONZ
+•	Botellas: Contienen 25 onzas de esencia de vainilla
+Esencia Vainilla Light G. – Onzas – ONZ
+•	Botellas: Contienen 25 onzas de esencia de vainilla light
+Polvo Frappe Cookies And Cream G. – Gramos – GRS
+•	Cajas: Contienen 5 bolsas de polvo de frappe de 1,600 gramos cada una.
+•	Bolsas: Contienen 1,600 gramos de polvo de frappe
+Jarabe Pelon Pelo Rico – Gramos – GRS
+•	Botes: Contienen 13,000 gramos de jarabe de pelon pelo rico
+Polvo Frappe Carlos V – Gramos – GRS
+•	Cajas: Contienen 5 bolsas de polvo de frappe de 1,600 gramos cada una.
+•	Bolsas: Contienen 1,600 gramos de polvo de frappe
+Polvo Frappe Cajeta Coronado – Gramos – GRS
+•	Cajas: Contienen 5 bolsas de polvo de frappe de 1,600 gramos cada una.
+•	Bolsas: Contienen 1,600 gramos de polvo de frappe
+Polvo Frappe M-M – Gramos – GRS
+•	Cajas: Contienen 5 bolsas de polvo de frappe de 1,600 gramos cada una.
+•	Bolsas: Contienen 1,600 gramos de polvo de frappe
+Polvo Frappe Chocoretas – Gramos – GRS
+•	Cajas: Contienen 5 bolsas de polvo de frappe de 1,600 gramos cada una.
+•	Bolsas: Contienen 1,600 gramos de polvo de frappe
+Polvo Galleta Oreo – Gramos – GRS
+•	Bolsas: Contienen 2,000 gramos de polvo de galleta oreo
+CAFE / REPOSTERÍA
+Pastel Cheese Cake Globo Colosal – Rebanadas – REB
+•	Cajas: Contienen 12 rebanadas de pastel de cheese cake
+•	Rebanadas: Rebanadas de pastel de cheese cake sueltas
+CAFE / SMOOTHIE
+Piña En Almibar – Gramos – GRS
+•	Latas: Contienen 480 gramos de piña en almibar
+Polvo Jolly Rancher Cereza – Gramos – GRS
+•	Bolsas: Contienen 1,360 gramos de polvo de jolly rancher cereza
+Polvo Jolly Rancher Mora Azul – Gramos – GRS
+•	Bolsas: Contienen 1,360 gramos de polvo de jolly rancher cereza
+CAFE / TE
+Te Chai – Onzas – ONZ
+•	Botellas: Contienen 25 onzas de té chai
+Te De Mango – Onzas – ONZ
+•	Botellas: Contienen 25 onzas de té de mango
+Te Durazno – Onzas – ONZ
+•	Botellas: Contienen 25 onzas de té de durazno
+Te Frambuesa – Onzas – ONZ
+•	Botellas: Contienen 25 onzas de té de frambuesa
+DUL / BEBIDAS
+Jarabe Icee Blueberry – Litros – LTS
+•	Cajas: Contienen 19 litros de jarabe de icee blueberry
+Agua 600 ML – Piezas – PZA
+•	Paquetes: Contienen 12 piezas de agua de 600 ml
+Jarabe Ref Cola Light BIB G. – Litros – LTS
+•	Cajas: Contienen 9 litros de jarabe de refresco de coca cola light
+Jarabe Ref Lima Limón BIB G. – Litros – LTS
+•	Cajas: Contienen 9 litros de jarabe de refresco de yoli
+Jarabe Ref Cola BIB G. – Litros – LTS
+•	Cajas: Contienen 19 litros de jarabe de refresco de coca cola regular
+Vaso 44 Oz Genérico Extreme G. – Piezas – PZA
+•	Cajas: Contienen 500 piezas de vasos
+•	Mangas 25: Contienen 25 piezas de vasos
+Vaso Icee 32 Onz G. – Piezas – PZA
+•	Cajas: Contienen 480 piezas de vasos
+•	Mangas: Contienen 40 piezas de vasos
+Agua 1.2 LT – Piezas – PZA
+•	Paquetes: Contienen 12 piezas de agua de 1.2 litros
+Vaso Refresco 16 Oz G. – Piezas – PZA
+•	Cajas: Contienen 1,000 piezas de vasos
+•	Mangas 25: Contienen 25 piezas de vasos
+Vaso Refresco 20 Oz G. – Piezas – PZA
+•	Cajas: Contienen 1,000 piezas de vasos
+•	Mangas 25: Contienen 25 piezas de vasos
+Vaso Refresco 32 Oz G. – Piezas – PZA
+•	Cajas: Contienen 1,000 piezas de vasos
+•	Mangas 25: Contienen 25 piezas de vasos
+Jarabe Fuze Tea En Bag In Box G. – Litros – LTS
+•	Cajas: Contienen 9 litros de jarabe de refresco de fuze tea
+Jarabe Refresco Naranja BIB G. – Litros – LTS
+•	Cajas: Contienen 9 litros de jarabe de refresco de fanta
+Jarabe Icee De Cereza G. – Litros – LTS
+•	Cajas: Contienen 19 litros de jarabe de icee de cereza
+Jarabe Icee De Frambuesa Azul G – Litros – LTS
+•	Cajas: Contienen 19 litros de jarabe de icee de frambuesa azul
+Jarabe Icee De Manzana Caramelo G. – Litros – LTS
+•	Cajas: Contienen 19 litros de jarabe de icee de manzana caramelo
+Jarabe Icee De Limón G. – Litros – LTS
+•	Cajas: Contienen 19 litros de jarabe de icee de limón
+Jarabe Icee De Uva Manzana G. – Litros – LTS
+•	Cajas: Contienen 19 litros de jarabe de icee de uva manzana
+Jarabe Refresco Sidral Mundet BIB G. – Litros – LTS
+•	Cajas: Contienen 19 litros de jarabe de refresco de sidral mundet
+Jarabe Ciel Exprim Jamaica BIB G. – Litros – LTS
+•	Cajas: Contienen 5 litros de jarabe de refresco de ciel de Jamaica
+
+
+Jarabe Ciel Exprim Limón BIB G. – Litros – LTS
+•	Cajas: Contienen 5 litros de jarabe de refresco de ciel de limón
+Jarabe Refresco Coca Cola Sin Azucar BIB G. – Litros – LTS
+•	Cajas: Contienen 9 litros de jarabe de refresco de coca cola sin azúcar
+DUL / GRANEL
+Lombriz De Manzana Verde Enchilada – Gramos – GRS
+•	Cajas: Contienen 10 bolsas de 1,000 gramos de lombriz de manzana verde enchilada
+•	Bolsas: Contienen 1,000 gramos de lombriz de manzana verde enchilada
+Gomita Pepino Enchilado – Gramos – GRS
+•	Cajas: Contienen 10 bolsas de 1,000 gramos de gomita de pepino enchilado
+•	Bolsas: Contienen 1,000 gramos de gomita de pepino enchilado
+Botana Ideal – Gramos – GRS
+•	Bolsas: Contienen 5,000 gramos de botana ideal
+Contenedor Transparente Papel De 5 Oz Sin Impresi – Piezas – PZA
+•	Cajas: Contienen 1,000 piezas
+•	Mangas: Contienen 40 piezas
+Contenedor Transparente Papel De 8 Oz Sin Impresi – Piezas – PZA
+•	Cajas: Contienen 1,000 piezas
+•	Mangas: Contienen 40 piezas
+Contenedor Transparente Papel De 12 Oz Sin Impresi – Piezas – PZA
+•	Cajas: Contienen 1,000 piezas
+•	Mangas: Contienen 40 piezas
+Tubitos De Tamarindo Enchilado – Gramos – GRS
+•	Cajas: Contienen 5 bolsas de 1,000 gramos de tubitos de tamarindo enchilado
+•	Bolsas: Contienen 1,000 gramos de tubitos de tamarindo enchilado
+Lengua De Gato Café G. – Gramos – GRS
+•	Cajas: Contienen 1,000 gramos de lengua de gato café
+Pasa Trapada Granel G. – Gramos – GRS
+•	Bolsas: Contienen 6,000 gramos de pasa trapada
+Chilimix G. – Gramos – GRS
+•	Bolsas: Contienen 5,000 gramos de chilimix
+Mango Enchilado G. – Gramos – GRS
+•	Bolsas: Contienen 5,000 gramos de mango enchilado
+Tamarindo Enchilado G. – Gramos – GRS
+•	Cajas: Contienen 23 bolsas de 500 gramos de tamarindo enchilado
+•	Bolsas: Contienen 500 gramos de tamarindo enchilado
+Runts G. – Gramos – GRS
+•	Bolsas: Contienen 13,360 gramos de runts
+Goma Aro De Manzana y Durazno G. – Gramos – GRS
+•	Cajas: Contienen 10 bolsas de 1,000 gramos de goma de aro de manzana y durazno
+•	Bolsas: Contienen 1,000 gramos de goma de aro de manzana y durazno
+Goma Two Colors G. – Gramos – GRS
+•	Cajas: Contienen 10 bolsas de 1,000 gramos de goma two colors
+•	Bolsas: Contienen 1,000 gramos de goma two colors
+Panditas G. – Gramos – GRS
+•	Cajas: Contienen 10 bolsas de 1,000 gramos de panditas
+•	Bolsas: Contienen 1,000 gramos de panditas
+Gomitas Mango Enchilado G. – Gramos – GRS
+•	Cajas: Contienen 2 bolsas de 5,000 gramos de gomitas de mango enchilado
+•	Bolsas: Contienen 5,000 gramos de gomitas de mango enchilado
+Gomitas Víbora Neón G. – Gramos – GRS
+•	Cajas: Contienen 6 bolsas de 1,000 gramos de gomitas de víbora neón
+•	Bolsas: Contienen 1,000 gramos de gomitas de víbora neón
+Tiras Acidas G. – Gramos – GRS
+•	Cajas: Contienen 3 bolsas de 3,000 gramos de tiras acidas
+•	Bolsas: Contienen 3,000 gramos de tiras acidas
+Mini Pretzel Chocolate – Gramos – GRS
+•	Bolsas: Contienen 6,800 gramos de mini pretzel de chocolate
+Cacahuate Japones a Granel – Gramos – GRS
+•	Bolsas: Contienen 5,000 gramos de cacahuate japones
+
+
+DUL / HD
+Salchicha Mega – Piezas – PZA
+•	Paquetes: Contienen 18 piezas de salchicha jumbo
+Charola P/Hot Dog J. – Piezas – PZA
+•	Cajas: Contienen 7 paquetes de 100 piezas de charolas para hot dog jumbo
+•	Paquetes: Contienen 100 piezas de charolas para hot dog jumbo
+Charola P/Hot Dog G. – Piezas – PZA
+•	Cajas: Contienen 20 paquetes de 100 piezas de charolas para hot dog normal
+•	Paquetes: Contienen 100 piezas de charolas para hot dog normal
+Salchicha G. – Piezas – PZA
+•	Paquetes: Contienen 6 piezas de salchicha normal
+Pan P/Hot Dog – Piezas – PZA
+•	Paquetes: Contienen 8 piezas de pan para hot dog
+DUL / HELADOS
+Cornetto Hershey – Piezas – PZA
+•	Cajas: Contienen 24 piezas de cornetto hershey
+•	Piezas: Helados sueltos de cornetto hershey
+Magnum Double Caramelo – Piezas – PZA
+•	Cajas: Contienen 25 piezas de magnum double caramelo
+•	Piezas: Helados sueltos de magnum double caramelo
+Magnum Double Chocolate – Piezas – PZA
+•	Cajas: Contienen 25 piezas de magnum double chocolate
+•	Piezas: Helados sueltos de magum double chocolate
+Cornetto Chocolagge – Piezas – PZA
+•	Cajas: Contienen 24 piezas de cornetto chocolagge
+•	Piezas: Helados sueltos de cornetto chocolagge
+Magnum Almendras – Piezas – PZA
+•	Cajas: Contienen 25 piezas de magnum de almendras
+•	Piezas: Helados sueltos de magnum de almendras
+Magnum Classic – Piezas – PZA
+•	Cajas: Contienen 25 piezas de magnum clásica
+•	Piezas: Helados sueltos de magnum clásica
+Mordisko Vainilla – Piezas – PZA
+•	Cajas: Contienen 24 piezas de mordisko de vainilla
+•	Piezas: Helados sueltos de mordisko de vainilla
+Solero Artesanal Coco – Piezas – PZA
+•	Cajas: Contienen 24 piezas de solero de coco
+•	Piezas: Helados sueltos de solero de coco
+Solero Artesanal Fresa – Piezas – PZA
+•	Cajas: Contienen 24 piezas de solero de fresa
+•	Piezas: Helados sueltos de solero de fresa
+Cornetto Oreo – Piezas – PZA
+•	Cajas: Contienen 24 piezas de cornetto oreo
+•	Piezas: Helados sueltos de cornetto oreo
+Cornetto Cheesecake Frutos Rojos – Piezas – PZA
+•	Cajas: Contienen 24 piezas de cornetto de frutos rojos
+•	Piezas: Helados sueltos de cornetto de frutos rojos
+Micha Oreo – Piezas – PZA
+•	Cajas: Contienen 16 piezas de micha oreo
+•	Piezas: Helados sueltos de micha oreo
+Micha M-M – Piezas – PZA
+•	Cajas: Contienen 16 piezas de micha m-m
+•	Piezas: Helados sueltos de micha m-m
+Micha Mordisko – Piezas – PZA
+•	Cajas: Contienen 16 piezas de micha mordisko
+•	Piezas: Helados sueltos de micha mordisko
+DUL / LEALTAD
+Tarjeta Club Cinépolis Fanático – Piezas – PZA
+•	Cajas: Contienen 100 piezas de tarjetas club Cinépolis fanático
+•	Piezas: Tarjetas sueltas de club Cinépolis fanático
+Tarjeta Club Cinépolis Super Fanático – Piezas – PZA
+•	Cajas: Contienen 100 piezas de tarjetas club Cinépolis super fanático
+•	Piezas: Tarjetas sueltas de club Cinépolis super fanático
+
+
+Tarjeta Cinecash 500 – Piezas – PZA
+•	Cajas: Contienen 100 piezas de tarjetas cinecash de 500 pesos
+•	Piezas: Tarjetas sueltas de cinecash de 500 pesos
+Tarjeta Cinecash 250 – Piezas – PZA
+•	Cajas: Contienen 100 piezas de tarjetas cinecash de 250 pesos
+•	Piezas: Tarjetas sueltas de cinecash de 250 pesos
+Tarjeta Cinecash 100 – Piezas – PZA
+•	Cajas: Contienen 100 piezas de tarjetas cinecash de 100 pesos
+•	Piezas: Tarjetas sueltas de cinecash de 100 pesos
+Tarjeta Club Cinépolis Junior – Piezas – PZA
+•	Cajas: Contienen 100 piezas de tarjetas club Cinépolis junior
+•	Piezas: Tarjetas sueltas de club Cinépolis junior
+Tarjeta Cinecash Variable – Piezas – PZA
+•	Cajas: Contienen 100 piezas de tarjetas cinecash variable
+•	Piezas: Tarjetas sueltas de cinecash variable
+Tarjeta Club Cinépolis Fan – Piezas – PZA
+•	Cajas: Contienen 100 piezas de tarjetas club Cinépolis fan
+•	Piezas: Tarjetas sueltas de club Cinépolis fan
+DUL / NACHOS
+Charola P/Nachos Grande G. – Piezas – PZA
+•	Cajas: Contienen 200 piezas de charolas para nachos chicos
+•	Mangas: Contienen 100 piezas de charolas para nachos chicos
+Queso P/Nachos G. – Onzas – ONZ
+•	Cajas: Contienen 4 bolsas de 140 onzas de queso para nachos
+Charola P/Nachos G. – Piezas – PZA
+•	Cajas: Contienen 600 piezas de charolas para nachos grandes
+•	Mangas: Contienen 100 piezas de charolas para nachos grandes
+Doritos Nachos G. – Gramos – GRS
+•	Cajas: Contienen 8 bolsas de 370 gramos de doritos nachos
+•	Bolsas: Contienen 370 gramos de doritos nachos
+Nachos G. – Gramos – GRS
+•	Cajas: Contienen 25 bolsas de 144 gramos de tortilla de nachos
+•	Bolsas: Contienen 144 gramos de tortilla de nachos
+DUL / PAL
+Sazonador Takis Fuego P/Palomitas – Gramos – GRS
+•	Cajas: Contienen 10 bolsas de 1,000 gramos de sazonador takis fuego
+•	Bolsas: Contienen 1,000 gramos de sazonador takis fuego
+Takis Fuego – Gramos – GRS
+•	Cajas: Contienen 25 bolsas de 190 gramos de takis fuego
+•	Bolsas: Contienen 190 gramos de takis fuego
+Canasta Palomita Chica – Piezas – PZA
+•	Cajas: Contienen 10 mangas de 50 piezas de canastas de palomita chica
+•	Mangas: Contiene 50 piezas de canastas de palomita chica
+Chocolates Bites Hershey’s Sabor Leche – Gramos – GRS
+•	Paquetes: Contiene 12 bolsas de 43 gramos de chocolates bites hershey
+Canasta Jumbo 180 Oz Cinépolis – Piezas – PZA
+•	Cajas: Contienen 10 mangas de 50 piezas de canastas de palomita jumbo
+•	Mangas: Contiene 50 piezas de canastas de palomita jumbo
+Sazonador Dorinacho Para Palomitas – Gramos – GRS
+•	Cajas: Contienen 10 bolsas de 1,000 gramos de sazonador dorinacho
+•	Bolsas: Contienen 1,000 gramos de sazonador dorinacho
+Canasta Palomita Grande – Piezas – PZA
+•	Cajas: Contienen 12 mangas de 50 piezas de canastas de palomita grande
+•	Mangas: Contiene 50 piezas de canastas de palomita grande
+Canasta Palomita Mediana – Piezas – PZA
+•	Cajas: Contienen 12 mangas de 50 piezas de canastas de palomita mediana
+•	Mangas: Contiene 50 piezas de canastas de palomita mediana
+Vaso Palomero 46 G. – Piezas – PZA
+•	Cajas: Contienen 10 mangas de 25 piezas de vaso palomero
+•	Mangas: Contiene 25 piezas de vaso palomero
+Cajita Feliz Cartón G. – Piezas – PZA
+•	Cajas: Contienen 7 mangas de 50 piezas de canastas de palomita cajita feliz
+•	Mangas: Contiene 50 piezas de canastas de palomita cajita feliz
+
+
+
+Aceite Canola G. – Litros – LTS
+•	Cajas: Contienen 15 litros de aceite canola
+
+Aceite P/Palomitas G. – Litros – LTS
+•	Cajas: Contienen 15 litros de aceite para palomitas
+Glaze Pop G. – Gramos – GRS
+•	Cajas: Contienen 12 cartones de 794 gramos de glaze pop
+Maiz Palomero – Kilogramos – KGS
+•	Costales: Contienen 22.5 kilogramos de maíz palomero
+Sal P/Palomitas Bachi G. – Kilogramos – KGS
+•	Cubetas: Contienen 20 kilogramos de sal para palomitas
+•	Bolsas: Contienen 2 kilogramos de sal para palomitas
+Sazonador Cheddar G. – Kilogramos – KGS
+•	Cajas: Contienen 10 bolsas de 1 kilogramo de sazonador cheddar
+•	Bolsas: Contienen 1 kilogramo de sazonador cheddar
+Canasta Para Palomitas Para Llevar – Piezas – PZA
+•	Cajas: Contienen 7 mangas de 50 piezas de canastas de palomita para llevar
+•	Mangas: Contiene 50 piezas de canastas de palomita para llevar
+DUL / SNACK
+Cheetos Flamin Hot – Gramos – GRS
+•	Bolsas: Contienen 150 gramos de cheetos flamin hot
+Papas Fritas Naturales G. – Piezas – PZA
+•	Cajas: Contienen 50 piezas de papas fritas naturales
+•	Piezas: Piezas sueltas de papas fritas naturales
+Papas Fritas Adobadas G. – Piezas – PZA
+•	Cajas: Contienen 50 piezas de papas fritas adobadas
+•	Piezas: Piezas sueltas de papas fritas adobadas
+
+DUL / VITRINA
+Algodon De Azucar Tricolor – Piezas – PZA
+•	Piezas: Piezas sueltas de algodón de azúcar
+
+Kit Kat 4 Fingers – Piezas – PZA
+•	Cajas: Contienen 24 piezas de kit kat
+•	Piezas: Piezas sueltas de kit kat
+Skwinkles Rellenos Para Compartir – Piezas – PZA
+•	Cajas: Contienen 6 piezas de skwinkles rellenos para compartir
+•	Piezas: Piezas sueltas de skwinkles rellenos para compartir
+Skwinkles Salsagheti Para Compartir – Piezas – PZA
+•	Cajas: Contienen 6 piezas de skwinkles salsagheti para compartir
+•	Piezas: Piezas sueltas de skwinkles salsagheti para compartir
+M-M Caramel – Piezas – PZA
+•	Cajas: Contienen 24 piezas de m-m caramel
+•	Piezas: Piezas sueltas de m-m caramel
+Sachet Bolitas De Sandía – Piezas – PZA
+•	Cajas: Contienen 40 piezas de bolitas de sandía
+•	Piezas: Piezas sueltas de bolitas de sandía
+Sachet Mini Malvaviscos De Frutas – Piezas – PZA
+•	Cajas: Contienen 40 piezas de malvaviscos de frutas
+•	Piezas: Piezas sueltas de malvaviscos de frutas
+Sachet Mini Malvaviscos De Chocolate – Piezas – PZA
+•	Cajas: Contienen 40 piezas de malvaviscos de chocolate
+•	Piezas: Piezas sueltas de malvaviscos de chocolate
+Hershey Cookies And Cream – Piezas – PZA
+•	Cajas: Contienen 32 piezas de hershey cookies and cream
+•	Piezas: Piezas sueltas de hershey cookies and cream
+Hershey Almendra – Piezas – PZA
+•	Cajas: Contienen 30 piezas de hershey almendra
+•	Piezas: Piezas sueltas de hershey almendra
+Crunch – Piezas – PZA
+•	Cajas: Contienen 12 paquetes de 6 piezas de crunch
+•	Paquetes: Contienen 6 piezas de crunch
+•	Piezas: Piezas sueltas de crunch
+M-M Amarillo – Piezas – PZA
+•	Cajas: Contienen 24 piezas de m-m amarillo
+•	Piezas: Piezas sueltas de m-m amarillo
+M-M Café – Piezas – PZA
+•	Cajas: Contienen 24 piezas de m-m café
+•	Piezas: Piezas sueltas de m-m café
+
+Pon Pons – Piezas – PZA
+•	Cajas: Contienen 24 piezas de pon pons
+•	Piezas: Piezas sueltas de pon pons
+Snickers – Piezas – PZA
+•	Cajas: Contienen 48 piezas de snickers
+•	Piezas: Piezas sueltas de snickers
+Pelon Pelonazo – Piezas – PZA
+•	Cajas: Contienen 48 piezas de pelon pelonazo
+•	Paquetes: Contienen 4 piezas de pelon pelonazo
+•	Piezas: Piezas sueltas de pelon pelonazo
+Sachet Bolitas De Mango Enchilado – Piezas – PZA
+•	Cajas: Contienen 40 piezas de bolitas de mango enchilado
+•	Piezas: Piezas sueltas de bolitas de mango enchilado
+Pelonete – Piezas – PZA
+•	Cajas: Contienen 144 piezas de pelonete
+•	Paquetes: Contienen 6 piezas de pelonete
+•	Piezas: Piezas sueltas de pelonete
+Nerds – Piezas – PZA
+•	Cajas: Contienen 36 piezas de nerds
+•	Piezas: Piezas sueltas de nerds
+Skittles Grandes – Piezas – PZA
+•	Cajas: Contienen 32 piezas de skittles
+•	Piezas: Piezas sueltas de skittles
+Gomitas Dulcipolis – Piezas – PZA
+•	Cajas: Contienen 30 piezas de gomitas dulcipolis
+•	Piezas: Piezas sueltas de gomitas dulcipolis
+M-M minis Bulk G. – Gramos – GRS
+•	Cajas: Contienen 11,000 gramos de m-m minis bulk
+•	Porciones: Bolsas porcionadas de 1,000 gramos de m-m minis bulk
+</string>
+</resources>
