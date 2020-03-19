@@ -21,7 +21,7 @@ public class Menuprincipal extends AppCompatActivity {
 
     //Método para mandar a llamar el activity de dulceria
     public void Irdulceria (View view){
-        Intent irdulceria = new Intent(this, Dulceria.class);
+        Intent irdulceria = new Intent(this, Menu_Dulceria.class);
         startActivity(irdulceria);
     }
 

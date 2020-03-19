@@ -10,7 +10,7 @@ public class Menu_Almacen extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_menu__almacen);
+        setContentView(R.layout.activity_menu_almacen);
     }
 
     //Método para mandar a llamar el activity de almacén 1
