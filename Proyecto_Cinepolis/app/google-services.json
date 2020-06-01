@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1002023015905",
+    "firebase_url": "https://proyectocinepolis-279e1.firebaseio.com",
+    "project_id": "proyectocinepolis-279e1",
+    "storage_bucket": "proyectocinepolis-279e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1002023015905:android:8b37fbbc32acb1651eaea0",
+        "android_client_info": {
+          "package_name": "com.abundis.proyecto_cinepolis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1002023015905-2rb57h8ke0cq5cc7h4ij07qpac4scrcf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abundis.proyecto_cinepolis",
+            "certificate_hash": "0d7a63cce91ad36253c290bdd13f81cefe0d8ee2"
+          }
+        },
+        {
+          "client_id": "1002023015905-9721hbdtnirikqjrse8vv0mljunsus2h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqSHvHWcwQM-9CxFLHTh05CVKT8HuM_qk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1002023015905-9721hbdtnirikqjrse8vv0mljunsus2h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

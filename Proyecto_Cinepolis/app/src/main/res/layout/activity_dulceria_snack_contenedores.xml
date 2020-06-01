@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dulceria_Snack_Contenedores">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="SNACK/ CONTENEDORES GRANEL"
+            android:textColor="#FF0000"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nContenedor Transparente Papel De 5 Oz Sin Impresi – Piezas – PZA"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/contenedor5onz1_dul"
+                    android:layout_width="169dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Módulo 1"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/contenedor5onz2_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:ems="10"
+                    android:hint="Módulo 2"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+
+
+                <EditText
+                    android:id="@+id/contenedor5onz3_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Módulo 3"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/contenedor5onz4_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:ems="10"
+                    android:hint="Módulo 4"
+                    android:inputType="numberDecimal" />
+
+            </TableRow>
+        </TableLayout>
+
+
+        <EditText
+            android:id="@+id/contenedor5onzfisico_dul"
+            android:layout_width="169dp"
+            android:enabled="false"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Resultado"
+            android:layout_gravity="center"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nContenedor Transparente Papel De 8 Oz Sin Impresi – Piezas – PZA"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/contenedor8onz1_dul"
+                    android:layout_width="169dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Módulo 1"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/contenedor8onz2_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:ems="10"
+                    android:hint="Módulo 2"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+
+
+                <EditText
+                    android:id="@+id/contenedor8onz3_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Módulo 3"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/contenedor8onz4_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:ems="10"
+                    android:hint="Módulo 4"
+                    android:inputType="numberDecimal" />
+
+            </TableRow>
+        </TableLayout>
+
+
+        <EditText
+            android:id="@+id/contenedor8onzfisico_dul"
+            android:layout_width="169dp"
+            android:enabled="false"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Resultado"
+            android:layout_gravity="center"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nContenedor Transparente Papel De 12 Oz Sin Impresi – Piezas – PZA"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/contenedor12onz1_dul"
+                    android:layout_width="169dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Módulo 1"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/contenedor12onz2_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:ems="10"
+                    android:hint="Módulo 2"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+
+
+                <EditText
+                    android:id="@+id/contenedor12onz3_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Módulo 3"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/contenedor12onz4_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:ems="10"
+                    android:hint="Módulo 4"
+                    android:inputType="numberDecimal" />
+
+            </TableRow>
+        </TableLayout>
+
+
+        <EditText
+            android:id="@+id/contenedor12onzfisico_dul"
+            android:layout_width="169dp"
+            android:enabled="false"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Resultado"
+            android:layout_gravity="center"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nPapas Fritas Naturales G. – Piezas – PZA"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/papasnaturales_dul"
+                    android:layout_width="169dp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Piezas"
+                    android:inputType="numberDecimal" />
+
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nPapas Fritas Adobadas G. – Piezas – PZA"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/papasadobadas_dul"
+                    android:layout_width="169dp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Piezas"
+                    android:inputType="numberDecimal" />
+
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nVaso Palomero 46 G. – Piezas – PZA"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/vasopalomero_dul"
+                    android:layout_width="169dp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Piezas"
+                    android:inputType="numberDecimal" />
+
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nPapas Salsa Negra G. – Piezas – PZA"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/papassalsanegra_dul"
+                    android:layout_width="169dp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Piezas"
+                    android:inputType="numberDecimal" />
+
+            </TableRow>
+        </TableLayout>
+
+        <Button
+            android:id="@+id/generarvaloressnack_dul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:text="Generar y Guardar Valores"
+            android:textColor="@android:color/background_light"
+            android:background="@drawable/borde_boton" />
+
+        <Button
+            android:id="@+id/mostrarvaloressnack_dul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="60dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:text="Recuperar Valores"
+            android:textColor="@android:color/background_light"
+            android:background="@drawable/borde_boton" />
+
+
+    </LinearLayout>
+
+</ScrollView>
