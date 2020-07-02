@@ -31,6 +31,17 @@
             android:textColor="#FF0000"
             android:textSize="24sp"/>
 
+        <Button
+            android:id="@+id/mostrarvalores_taquilla"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:text="Recuperar Valores Ingresados"
+            android:textColor="@android:color/background_light"
+            android:background="@drawable/borde_boton" />
+
         <TextView
             android:id="@+id/textView8"
             android:layout_width="wrap_content"
@@ -187,24 +198,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="50dp"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
             android:text="Generar y Guardar Valores"
             android:textColor="@android:color/background_light"
             android:background="@drawable/borde_boton" />
 
-        <Button
-            android:id="@+id/mostrarvalores_taquilla"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="60dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginStart="8dp"
-            android:text="Recuperar Valores"
-            android:textColor="@android:color/background_light"
-            android:background="@drawable/borde_boton" />
+
+
 
 
     </LinearLayout>

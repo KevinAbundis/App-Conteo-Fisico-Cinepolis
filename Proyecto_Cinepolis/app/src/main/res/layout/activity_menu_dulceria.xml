@@ -105,7 +105,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
-
+                    android:onClick="Irdulceriasanhh"
                     android:orientation="vertical"
                     android:padding="16dp">
 
@@ -141,7 +141,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
-
+                    android:onClick="Irdulceriavitrina"
                     android:orientation="vertical"
                     android:padding="16dp">
 
@@ -175,7 +175,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
-
+                    android:onClick="Irdulceriaenvases"
                     android:orientation="vertical"
                     android:padding="16dp">
 
@@ -340,6 +340,103 @@
                         android:layout_marginEnd="8dp"
                         android:layout_marginStart="8dp"
                         android:text="GENERAR"
+                        android:textColor="@android:color/background_light"
+                        android:background="@drawable/borde_boton" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_marginTop="30dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+
+                    android:background="@color/cardview_light_background"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/agregar" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:text="REGISTRAR PRODUCTO"
+                        android:textColor="#6f6f6f"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/categoriaproducto"
+                        android:layout_width="169dp"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:ems="10"
+                        android:hint="Categoría Producto"
+                        android:inputType="text" />
+
+
+                    <EditText
+                        android:id="@+id/idproducto"
+                        android:layout_width="169dp"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:ems="10"
+                        android:hint="Id Producto"
+                        android:inputType="number" />
+
+                    <EditText
+                        android:id="@+id/nombreproducto"
+                        android:layout_width="169dp"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:ems="10"
+                        android:hint="Nombre Producto"
+                        android:inputType="text" />
+
+                    <EditText
+                        android:id="@+id/unidadmedida"
+                        android:layout_width="169dp"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:ems="10"
+                        android:hint="Unidad Medida"
+                        android:inputType="text" />
+
+                    <Button
+                        android:id="@+id/registrarProductoDulceria"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="8dp"
+                        android:text="OK"
                         android:textColor="@android:color/background_light"
                         android:background="@drawable/borde_boton" />
 

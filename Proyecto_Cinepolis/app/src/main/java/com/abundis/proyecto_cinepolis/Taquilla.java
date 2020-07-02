@@ -7,9 +7,11 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
@@ -36,6 +38,8 @@ public class Taquilla extends AppCompatActivity implements View.OnClickListener 
 
     //Declaramos el objeto databaseReference para poder utilizar la base de datos en tiempo real de Firebase
     private DatabaseReference databaseReference;
+
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -65,6 +69,9 @@ public class Taquilla extends AppCompatActivity implements View.OnClickListener 
         //Hacemos referencia al dialogo de progreso
         progressDialog = new ProgressDialog(this);
 
+        //Referencia del TextView
+        //TextMensaje = (TextView) findViewById(R.id.TxtMensaje);
+
         //Hacemos referencia al botón
         BotonGenerarvalores = (Button) findViewById(R.id.generarvalores_taquilla);
         BotonMostrarvalores = (Button) findViewById(R.id.mostrarvalores_taquilla);
@@ -73,7 +80,67 @@ public class Taquilla extends AppCompatActivity implements View.OnClickListener 
         BotonGenerarvalores.setOnClickListener(this);
         BotonMostrarvalores.setOnClickListener(this);
 
+        //Guardar las preferencias automáticamente en caso de cerrar la aplicación por accidente
+        TextcajasTCCTaquilla.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+            @Override
+            public void onFocusChange(View v, boolean hasFocus) {
+                if(!hasFocus && TextcajasTCCTaquilla.getText().toString() != null){
+                    //TextMensaje.setText(TextcajasTCCTaquilla.getText().toString());
+                    guardarPreferencias();
+                }
+            }
+        });
+
+        TextpiezasTCCTaquilla.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+            @Override
+            public void onFocusChange(View v, boolean hasFocus) {
+                if(!hasFocus && (TextpiezasTCCTaquilla.getText().toString() != null)){
+                    guardarPreferencias();
+                }
+            }
+        });
+
+        TextcajasTCCFTaquilla.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+            @Override
+            public void onFocusChange(View v, boolean hasFocus) {
+                if(!hasFocus && (TextcajasTCCFTaquilla.getText().toString() != null)){
+                    guardarPreferencias();
+                }
+            }
+        });
+
+        TextpiezasTCCFTaquilla.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+            @Override
+            public void onFocusChange(View v, boolean hasFocus) {
+                if(!hasFocus && (TextpiezasTCCFTaquilla.getText().toString() != null)){
+                    guardarPreferencias();
+                }
+            }
+        });
+
+        TextcajasTCCSFTaquilla.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+            @Override
+            public void onFocusChange(View v, boolean hasFocus) {
+                if(!hasFocus && (TextcajasTCCSFTaquilla.getText().toString() != null)){
+                    guardarPreferencias();
+                }
+            }
+        });
+
+        TextpiezasTCCSFTaquilla.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+            @Override
+            public void onFocusChange(View v, boolean hasFocus) {
+                if(!hasFocus && (TextpiezasTCCSFTaquilla.getText().toString() != null)){
+                    guardarPreferencias();
+                }
+            }
+        });
+
+
+
     }
+
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     private void operacionestarjetaclubcinepolisfan(){
         //Obtenemos datos
@@ -102,6 +169,8 @@ public class Taquilla extends AppCompatActivity implements View.OnClickListener 
         actualizardatos("DUL-LEALTAD",691, existenciafisica);
     }
 
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
     private void operacionestarjetaclubcinepolisfanatico(){
         //Obtenemos datos
         final String cajas = TextcajasTCCFTaquilla.getText().toString().trim();
@@ -129,6 +198,8 @@ public class Taquilla extends AppCompatActivity implements View.OnClickListener 
         actualizardatos("DUL-LEALTAD",2879, existenciafisica);
     }
 
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
     private void operacionestarjetaclubcinepolissuperfanatico(){
         //Obtenemos datos
         final String cajas = TextcajasTCCSFTaquilla.getText().toString().trim();
@@ -154,7 +225,12 @@ public class Taquilla extends AppCompatActivity implements View.OnClickListener 
 
         //Mandamos a llamar la función actualizar datos
         actualizardatos("DUL-LEALTAD",3802, existenciafisica);
+
+        //Mensaje de pantalla
+        Toast.makeText(this, "Datos Generados y Guardados Correctamente", Toast.LENGTH_LONG).show();
     }
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
     private void actualizardatos(String categoria, int id_producto, float existenciafisica){
@@ -168,7 +244,11 @@ public class Taquilla extends AppCompatActivity implements View.OnClickListener 
 
         //Actualizamos los datos con esta función
         databaseReference.child("Productos").child("Taquilla").child(categoria).child(""+id_producto).updateChildren(map);
+
+
     }
+
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     private void guardarPreferencias(){
         //Creamos un archivo xml para guardar los datos de nuestra preferencia en caso de que se nos cierre
@@ -204,6 +284,8 @@ public class Taquilla extends AppCompatActivity implements View.OnClickListener 
         editor.commit();
     }
 
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
     private void cargarPreferencias(){
 
         //Abrimos el archivo xml que hemos creado anteriormente
@@ -232,7 +314,7 @@ public class Taquilla extends AppCompatActivity implements View.OnClickListener 
         TextpiezasTCCSFTaquilla.setText(tccsfpiezas);
     }
 
-
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     @Override
     public void onClick(View v) {
@@ -256,11 +338,10 @@ public class Taquilla extends AppCompatActivity implements View.OnClickListener 
                 break;
 
             case R.id.mostrarvalores_taquilla:
-
+                //Método para recuperar datos en caso de cerrar por error la aplicación o por salir de la actividad
                 cargarPreferencias();
 
                 break;
-
         }
     }
 }

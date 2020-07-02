@@ -4,6 +4,8 @@
     package="com.abundis.proyecto_cinepolis">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -12,8 +14,32 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Dulceria_Snack_Contenedores"></activity>
-        <activity android:name=".Menu_Taquilla" />
+        <activity android:name=".Dulceria_Envases_Cine_Cafe"></activity>
+        <activity android:name=".Dulceria_Vitrina" />
+        <activity android:name=".PDF_Dulceria" />
+        <activity android:name=".Dulceria_Agua_Nachos_Helado_Hotdog" />
+        <activity android:name=".PDF_Taquilla" />
+        <activity android:name=".Almacen14" />
+        <activity android:name=".Almacen13" />
+        <activity android:name=".Almacen12" />
+        <activity android:name=".Almacen11" />
+        <activity android:name=".Almacen10" />
+        <activity android:name=".Almacen9" />
+        <activity android:name=".Almacen8" />
+        <activity android:name=".Almacen7" />
+        <activity android:name=".Almacen6" />
+        <activity android:name=".Almacen5" />
+        <activity android:name=".Almacen4" />
+        <activity android:name=".Almacen3" />
+        <activity android:name=".Almacen2" />
+        <activity
+            android:name=".Dulceria_Snack_Contenedores"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Menu_Taquilla"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
         <activity
             android:name=".Dulceria_Productos_Estrella"
             android:screenOrientation="portrait"

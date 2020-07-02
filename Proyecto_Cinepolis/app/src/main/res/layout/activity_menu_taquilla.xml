@@ -17,7 +17,7 @@
             android:layout_width="300dp"
             android:layout_height="match_parent"
             android:layout_gravity="center"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="60dp"
             android:alignmentMode="alignMargins"
             android:columnCount="1"
             android:columnOrderPreserved="false"
@@ -72,7 +72,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
-
                     android:background="@color/cardview_light_background"
                     android:orientation="vertical"
                     android:padding="16dp">
@@ -101,6 +100,7 @@
                         android:text="GENERAR"
                         android:textColor="@android:color/background_light"
                         android:background="@drawable/borde_boton" />
+
 
                 </LinearLayout>
 

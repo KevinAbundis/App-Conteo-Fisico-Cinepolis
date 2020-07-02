@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Almacen5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="CAFE / REPOSTERÍA"
+            android:textColor="#FF0000"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nPastel Cheese Cake Globo Colosal – Rebanadas – REB"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/editText1"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Cajas"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/editText2"
+                    android:layout_width="98dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Rebanadas"
+                    android:inputType="numberDecimal"/>
+
+                <EditText
+                    android:id="@+id/editText3"
+                    android:layout_width="89dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Resultado"
+                    android:inputType="numberDecimal"/>
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nCAFE / SMOOTHIE"
+            android:textColor="#FF0000"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nPiña En Almibar – Gramos – GRS "
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/editText4"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Latas"
+                    android:inputType="numberDecimal" />
+
+
+                <EditText
+                    android:id="@+id/editText5"
+                    android:layout_width="89dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Resultado"
+                    android:inputType="numberDecimal"/>
+            </TableRow>
+        </TableLayout>
+
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nPolvo Jolly Rancher Cereza – Gramos – GRS "
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/editText6"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Bolsas"
+                    android:inputType="numberDecimal" />
+
+
+                <EditText
+                    android:id="@+id/editText7"
+                    android:layout_width="89dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Resultado"
+                    android:inputType="numberDecimal"/>
+            </TableRow>
+        </TableLayout>
+
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nPolvo Jolly Rancher Mora Azul – Gramos – GRS "
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/editText8"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Bolsas"
+                    android:inputType="numberDecimal" />
+
+
+                <EditText
+                    android:id="@+id/editText9"
+                    android:layout_width="89dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Resultado"
+                    android:inputType="numberDecimal"/>
+            </TableRow>
+        </TableLayout>
+
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nCAFE / TE"
+            android:textColor="#FF0000"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nTe Chai – Onzas – ONZ"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/editText10"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Botellas"
+                    android:inputType="numberDecimal" />
+
+
+                <EditText
+                    android:id="@+id/editText11"
+                    android:layout_width="89dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Resultado"
+                    android:inputType="numberDecimal"/>
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nTe De Mango – Onzas – ONZ"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/editText12"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Botellas"
+                    android:inputType="numberDecimal" />
+
+
+                <EditText
+                    android:id="@+id/editText13"
+                    android:layout_width="89dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Resultado"
+                    android:inputType="numberDecimal"/>
+            </TableRow>
+        </TableLayout>
+
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nTe Durazno – Onzas – ONZ"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/editText14"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Botellas"
+                    android:inputType="numberDecimal" />
+
+
+                <EditText
+                    android:id="@+id/editText15"
+                    android:layout_width="89dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Resultado"
+                    android:inputType="numberDecimal"/>
+            </TableRow>
+        </TableLayout>
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nTe Frambuesa – Onzas – ONZ"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="90dp">
+
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/editText16"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Botellas"
+                    android:inputType="numberDecimal" />
+
+
+                <EditText
+                    android:id="@+id/editText17"
+                    android:layout_width="89dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Resultado"
+                    android:inputType="numberDecimal"/>
+            </TableRow>
+        </TableLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

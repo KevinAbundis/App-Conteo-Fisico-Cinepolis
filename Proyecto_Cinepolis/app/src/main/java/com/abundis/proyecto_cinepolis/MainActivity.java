@@ -168,10 +168,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             case R.id.BtnIniciarSesion:
                 //Invocamos al método
-                //loginUsuario();
+                loginUsuario();
 
-                //BORRAR LAS LÍNEAS DE CÓDIGO QUE SE ENCUENTRAN DEBAJO Y DESCOMENTAR LA LINEA DE CÓDIGO QUE MANDA A LLAMAR LA FUNCIÓN
+                /*//BORRAR LAS LÍNEAS DE CÓDIGO QUE SE ENCUENTRAN DEBAJO Y DESCOMENTAR LA LINEA DE CÓDIGO QUE MANDA A LLAMAR LA FUNCIÓN
                 //LOGINUSUARIO
+
+
                 //Mensaje de que el usuario ha iniciado sesión exitosamente
                 Toast.makeText(MainActivity.this, "Bienvenido", Toast.LENGTH_SHORT).show();
 
@@ -182,7 +184,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(intencion);
 
                 //Finalizamos la activity actual, para que cuando el usuario presione el botón de atras ya no se visualize de nuevo
-                finish();
+                finish();*/
                 break;
         }
 

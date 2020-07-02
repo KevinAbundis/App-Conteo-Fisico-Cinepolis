@@ -12,6 +12,16 @@
         android:orientation="vertical">
 
         <TextView
+            android:id="@+id/textView0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:text="DULCERÍA"
+            android:textColor="#0000FF"
+            android:textSize="30sp" />
+
+        <TextView
             android:id="@+id/textView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -20,6 +30,207 @@
             android:text="PRODUCTOS ESTRELLA"
             android:textColor="#FF0000"
             android:textSize="24sp"/>
+
+        <Button
+            android:id="@+id/mostrarvalores_dul_pal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:text="Recuperar Valores Ingresados"
+            android:textColor="@android:color/background_light"
+            android:background="@drawable/borde_boton" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nCanasta Palomita Chica – Piezas – PZA"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/palomitaschica1_dul"
+                    android:layout_width="169dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Módulo 1"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/palomitaschica2_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:ems="10"
+                    android:hint="Módulo 2"
+                    android:inputType="numberDecimal" />
+
+
+
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+
+
+                <EditText
+                    android:id="@+id/palomitaschica3_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Módulo 3"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/palomitaschica4_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:ems="10"
+                    android:hint="Módulo 4"
+                    android:inputType="numberDecimal" />
+
+            </TableRow>
+        </TableLayout>
+
+
+        <EditText
+            android:id="@+id/palomitaschicafisico_dul"
+            android:layout_width="169dp"
+            android:enabled="false"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Resultado"
+            android:layout_gravity="center"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nCanasta Palomita Mediana – Piezas – PZA"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/palomitasmedianas1_dul"
+                    android:layout_width="169dp"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Módulo 1"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/palomitasmedianas2_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_gravity="right"
+                    android:gravity="center"
+                    android:ems="10"
+                    android:hint="Módulo 2"
+                    android:inputType="numberDecimal" />
+
+
+
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+
+
+                <EditText
+                    android:id="@+id/palomitasmedianas3_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:layout_gravity="left"
+                    android:hint="Módulo 3"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/palomitasmedianas4_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:layout_gravity="right"
+                    android:ems="10"
+                    android:hint="Módulo 4"
+                    android:inputType="numberDecimal" />
+
+            </TableRow>
+        </TableLayout>
+
+
+        <EditText
+            android:id="@+id/palomitasmedianasfisico_dul"
+            android:layout_width="169dp"
+            android:enabled="false"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Resultado"
+            android:layout_gravity="center"
+            android:inputType="numberDecimal"/>
 
         <TextView
             android:id="@+id/textView8"
@@ -116,7 +327,6 @@
             android:layout_gravity="center"
             android:inputType="numberDecimal"/>
 
-
         <TextView
             android:id="@+id/textView9"
             android:layout_width="wrap_content"
@@ -212,30 +422,691 @@
             android:layout_gravity="center"
             android:inputType="numberDecimal"/>
 
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nCanasta Para Palomitas Para Llevar – Piezas – PZA"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/palomitasllevar1_dul"
+                    android:layout_width="169dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Módulo 1"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/palomitasllevar2_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:ems="10"
+                    android:hint="Módulo 2"
+                    android:inputType="numberDecimal" />
+
+
+
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+
+
+                <EditText
+                    android:id="@+id/palomitasllevar3_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Módulo 3"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/palomitasllevar4_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:ems="10"
+                    android:hint="Módulo 4"
+                    android:inputType="numberDecimal" />
+
+            </TableRow>
+        </TableLayout>
+
+
+        <EditText
+            android:id="@+id/palomitasllevarfisico_dul"
+            android:layout_width="169dp"
+            android:enabled="false"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Resultado"
+            android:layout_gravity="center"
+            android:inputType="numberDecimal"/>
+
+
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nCajita Feliz Cartón G. – Piezas – PZA"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/palomitascajita1_dul"
+                    android:layout_width="169dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Módulo 1"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/palomitascajita2_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:ems="10"
+                    android:hint="Módulo 2"
+                    android:inputType="numberDecimal" />
+
+
+
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+
+
+                <EditText
+                    android:id="@+id/palomitascajita3_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Módulo 3"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/palomitascajita4_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:ems="10"
+                    android:hint="Módulo 4"
+                    android:inputType="numberDecimal" />
+
+            </TableRow>
+        </TableLayout>
+
+
+        <EditText
+            android:id="@+id/palomitascajitafisico_dul"
+            android:layout_width="169dp"
+            android:enabled="false"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Resultado"
+            android:layout_gravity="center"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nVaso Refresco 16 Oz G. – Piezas – PZA"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/vasochico1_dul"
+                    android:layout_width="169dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Módulo 1"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/vasochico2_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:ems="10"
+                    android:hint="Módulo 2"
+                    android:inputType="numberDecimal" />
+
+
+
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+
+
+                <EditText
+                    android:id="@+id/vasochico3_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Módulo 3"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/vasochico4_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:ems="10"
+                    android:hint="Módulo 4"
+                    android:inputType="numberDecimal" />
+
+            </TableRow>
+        </TableLayout>
+
+
+        <EditText
+            android:id="@+id/vasochicofisico_dul"
+            android:layout_width="169dp"
+            android:enabled="false"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Resultado"
+            android:layout_gravity="center"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nVaso Refresco 20 Oz G. – Piezas – PZA"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/vasomediano1_dul"
+                    android:layout_width="169dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Módulo 1"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/vasomediano2_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:ems="10"
+                    android:hint="Módulo 2"
+                    android:inputType="numberDecimal" />
+
+
+
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+
+
+                <EditText
+                    android:id="@+id/vasomediano3_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Módulo 3"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/vasomediano4_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:ems="10"
+                    android:hint="Módulo 4"
+                    android:inputType="numberDecimal" />
+
+            </TableRow>
+        </TableLayout>
+
+
+        <EditText
+            android:id="@+id/vasomedianofisico_dul"
+            android:layout_width="169dp"
+            android:enabled="false"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Resultado"
+            android:layout_gravity="center"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nVaso Refresco 32 Oz G. – Piezas – PZA"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/vasogrande1_dul"
+                    android:layout_width="169dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Módulo 1"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/vasogrande2_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:ems="10"
+                    android:hint="Módulo 2"
+                    android:inputType="numberDecimal" />
+
+
+
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+
+
+                <EditText
+                    android:id="@+id/vasogrande3_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Módulo 3"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/vasogrande4_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:ems="10"
+                    android:hint="Módulo 4"
+                    android:inputType="numberDecimal" />
+
+            </TableRow>
+        </TableLayout>
+
+
+        <EditText
+            android:id="@+id/vasograndefisico_dul"
+            android:layout_width="169dp"
+            android:enabled="false"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Resultado"
+            android:layout_gravity="center"
+            android:inputType="numberDecimal"/>
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nVaso 44 Oz Genérico Extreme G. – Piezas – PZA"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/vasojumbo1_dul"
+                    android:layout_width="169dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Módulo 1"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/vasojumbo2_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:ems="10"
+                    android:hint="Módulo 2"
+                    android:inputType="numberDecimal" />
+
+
+
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+
+
+                <EditText
+                    android:id="@+id/vasojumbo3_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Módulo 3"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/vasojumbo4_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:ems="10"
+                    android:hint="Módulo 4"
+                    android:inputType="numberDecimal" />
+
+            </TableRow>
+        </TableLayout>
+
+
+        <EditText
+            android:id="@+id/vasojumbofisico_dul"
+            android:layout_width="169dp"
+            android:enabled="false"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Resultado"
+            android:layout_gravity="center"
+            android:inputType="numberDecimal"/>
+
+
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nVaso Icee 32 Onz G. – Piezas – PZA"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/vasoicee1_dul"
+                    android:layout_width="169dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Módulo 1"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/vasoicee2_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:ems="10"
+                    android:hint="Módulo 2"
+                    android:inputType="numberDecimal" />
+
+
+
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+
+
+                <EditText
+                    android:id="@+id/vasoicee3_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Módulo 3"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/vasoicee4_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:ems="10"
+                    android:hint="Módulo 4"
+                    android:inputType="numberDecimal" />
+
+            </TableRow>
+        </TableLayout>
+
+
+        <EditText
+            android:id="@+id/vasoiceefisico_dul"
+            android:layout_width="169dp"
+            android:enabled="false"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Resultado"
+            android:layout_gravity="center"
+            android:inputType="numberDecimal"/>
+
+
+
+
         <Button
             android:id="@+id/generarvalores_dul_pal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="50dp"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
             android:text="Generar y Guardar Valores"
             android:textColor="@android:color/background_light"
             android:background="@drawable/borde_boton" />
-
-        <Button
-            android:id="@+id/mostrarvalores_dul_pal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="60dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginStart="8dp"
-            android:text="Recuperar Valores"
-            android:textColor="@android:color/background_light"
-            android:background="@drawable/borde_boton" />
-
 
 
     </LinearLayout>

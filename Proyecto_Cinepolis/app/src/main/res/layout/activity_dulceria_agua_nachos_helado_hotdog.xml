@@ -1,0 +1,1709 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dulceria_Agua_Nachos_Helado_Hotdog">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="AGUAS/NACHOS/HELADOS/HOTDOG"
+            android:textColor="#FF0000"
+            android:textSize="24sp"/>
+
+        <Button
+            android:id="@+id/mostrarvaloresagua_dul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:text="Recuperar Valores Ingresados"
+            android:textColor="@android:color/background_light"
+            android:background="@drawable/borde_boton" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nAgua 600 ML – Piezas – PZA"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/agua600Refri1_dul"
+                    android:layout_width="169dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Refrigerador 1"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/agua600refri2_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:ems="10"
+                    android:hint="Refrigerador 2"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+
+
+                <EditText
+                    android:id="@+id/agua600refri3_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Refrigerador 3"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/agua600paquete_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Paquetes"
+                    android:inputType="numberDecimal" />
+
+            </TableRow>
+        </TableLayout>
+
+        <EditText
+            android:id="@+id/agua600fisico_dul"
+            android:layout_width="169dp"
+            android:enabled="false"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Resultado"
+            android:layout_gravity="center"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nAgua 1.2 LT – Piezas – PZA"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/agua1Refri1_dul"
+                    android:layout_width="169dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Refrigerador 1"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/agua1refri2_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:ems="10"
+                    android:hint="Refrigerador 2"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+
+
+                <EditText
+                    android:id="@+id/agua1refri3_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Refrigerador 3"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/agua1paquete_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Paquetes"
+                    android:inputType="numberDecimal" />
+
+            </TableRow>
+        </TableLayout>
+
+        <EditText
+            android:id="@+id/agua1fisico_dul"
+            android:layout_width="169dp"
+            android:enabled="false"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Resultado"
+            android:layout_gravity="center"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nCharola P/Nachos G. – Piezas – PZA
+"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/charolanachoscajas_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Cajas"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/charolanachospz_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Piezas"
+                    android:inputType="numberDecimal" />
+
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/charolanachos1_dul"
+                    android:layout_width="169dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Exhibidor 1"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/charolanachos2_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:ems="10"
+                    android:hint="Exhibidor 2"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+        </TableLayout>
+
+
+
+        <EditText
+            android:id="@+id/charolanachosfisico_dul"
+            android:layout_width="169dp"
+            android:enabled="false"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Resultado"
+            android:layout_gravity="center"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nCharola P/Nachos Grande G. – Piezas – PZA
+"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/charolanachosgrandecajas_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Cajas"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/charolanachosgrandepz_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Piezas"
+                    android:inputType="numberDecimal" />
+
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/charolanachosgrande1_dul"
+                    android:layout_width="169dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Exhibidor 1"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/charolanachosgrande2_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:ems="10"
+                    android:hint="Exhibidor 2"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+        </TableLayout>
+
+        <EditText
+            android:id="@+id/charolanachosgrandefisico_dul"
+            android:layout_width="169dp"
+            android:enabled="false"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Resultado"
+            android:layout_gravity="center"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nCharola P/Hot Dog G. – Piezas – PZA"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/charolahotdog1_dul"
+                    android:layout_width="169dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Exhibidor 1"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/charolahotdog2_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:ems="10"
+                    android:hint="Exhibidor 2"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+        </TableLayout>
+
+        <EditText
+            android:id="@+id/charolahotdogfisico_dul"
+            android:layout_width="169dp"
+            android:enabled="false"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Resultado"
+            android:layout_gravity="center"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nPan P/Hot Dog – Piezas – PZA "
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/panhotdog1_dul"
+                    android:layout_width="169dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Paquetes 1"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/panhotdog2_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:ems="10"
+                    android:hint="Piezas 1"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/panhotdog3_dul"
+                    android:layout_width="169dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Paquetes 2"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/panhotdog4_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:ems="10"
+                    android:hint="Piezas 2"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+        </TableLayout>
+
+        <EditText
+            android:id="@+id/panhotdogfisico_dul"
+            android:layout_width="169dp"
+            android:enabled="false"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Resultado"
+            android:layout_gravity="center"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nSalchicha G. – Piezas – PZA"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/salchichahotdog1_dul"
+                    android:layout_width="169dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Paquetes"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/salchichahotdog2_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:ems="10"
+                    android:hint="Piezas"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+        </TableLayout>
+
+        <EditText
+            android:id="@+id/salchichahotdogfisico_dul"
+            android:layout_width="169dp"
+            android:enabled="false"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Resultado"
+            android:layout_gravity="center"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nCharola P/Hot Dog J. – Piezas – PZA"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/charolajumbohotdog1_dul"
+                    android:layout_width="169dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Exhibidor 1"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/charolajumbohotdog2_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:ems="10"
+                    android:hint="Exhibidor 2"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+        </TableLayout>
+
+        <EditText
+            android:id="@+id/charolajumbohotdogfisico_dul"
+            android:layout_width="169dp"
+            android:enabled="false"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Resultado"
+            android:layout_gravity="center"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nSalchicha Mega – Piezas – PZA"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/salchichajumbohotdog1_dul"
+                    android:layout_width="169dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Paquetes"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/salchichajumbohotdog2_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:ems="10"
+                    android:hint="Piezas"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+        </TableLayout>
+
+        <EditText
+            android:id="@+id/salchichajumbohotdogfisico_dul"
+            android:layout_width="169dp"
+            android:enabled="false"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Resultado"
+            android:layout_gravity="center"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nSalchibotana – Piezas – PZA"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/salchibotana_dul"
+                    android:layout_width="169dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Piezas"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nCornetto Hershey – Piezas – PZA"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/cornetohersheycong1_dul"
+                    android:layout_width="169dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Congelador 1"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/cornetohersheycong2_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:ems="10"
+                    android:hint="Congelador 2"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/cornetohersheycong3_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Congelador 3"
+                    android:inputType="numberDecimal" />
+
+            </TableRow>
+        </TableLayout>
+
+        <EditText
+            android:id="@+id/cornetohersheyfisico_dul"
+            android:layout_width="169dp"
+            android:enabled="false"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Resultado"
+            android:layout_gravity="center"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nCornetto Chocolagge – Piezas – PZA"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/cornetochocolaggecong1_dul"
+                    android:layout_width="169dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Congelador 1"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/cornetochocolaggecong2_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:ems="10"
+                    android:hint="Congelador 2"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/cornetochocolaggecong3_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Congelador 3"
+                    android:inputType="numberDecimal" />
+
+            </TableRow>
+        </TableLayout>
+
+        <EditText
+            android:id="@+id/cornetochocolaggefisico_dul"
+            android:layout_width="169dp"
+            android:enabled="false"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Resultado"
+            android:layout_gravity="center"
+            android:inputType="numberDecimal"/>
+
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nMagnum Almendras – Piezas – PZA"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/magnumalmcong1_dul"
+                    android:layout_width="169dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Congelador 1"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/magnumalmcong2_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:ems="10"
+                    android:hint="Congelador 2"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/magnumalmcong3_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Congelador 3"
+                    android:inputType="numberDecimal" />
+
+            </TableRow>
+        </TableLayout>
+
+        <EditText
+            android:id="@+id/magnumalmfisico_dul"
+            android:layout_width="169dp"
+            android:enabled="false"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Resultado"
+            android:layout_gravity="center"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nMagnum Classic – Piezas – PZA"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/magnumclscong1_dul"
+                    android:layout_width="169dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Congelador 1"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/magnumclscong2_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:ems="10"
+                    android:hint="Congelador 2"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/magnumclscong3_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Congelador 3"
+                    android:inputType="numberDecimal" />
+
+            </TableRow>
+        </TableLayout>
+
+        <EditText
+            android:id="@+id/magnumclsfisico_dul"
+            android:layout_width="169dp"
+            android:enabled="false"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Resultado"
+            android:layout_gravity="center"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nMordisko Vainilla – Piezas – PZA"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/mordiskovainillacong1_dul"
+                    android:layout_width="169dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Congelador 1"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/mordiskovainillacong2_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:ems="10"
+                    android:hint="Congelador 2"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/mordiskovainillacong3_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Congelador 3"
+                    android:inputType="numberDecimal" />
+
+            </TableRow>
+        </TableLayout>
+
+        <EditText
+            android:id="@+id/mordiskovainillafisico_dul"
+            android:layout_width="169dp"
+            android:enabled="false"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Resultado"
+            android:layout_gravity="center"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nSolero Artesanal Coco – Piezas – PZA"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/solerocococong1_dul"
+                    android:layout_width="169dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Congelador 1"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/solerocococong2_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:ems="10"
+                    android:hint="Congelador 2"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/solerocococong3_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Congelador 3"
+                    android:inputType="numberDecimal" />
+
+            </TableRow>
+        </TableLayout>
+
+        <EditText
+            android:id="@+id/solerococofisico_dul"
+            android:layout_width="169dp"
+            android:enabled="false"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Resultado"
+            android:layout_gravity="center"
+            android:inputType="numberDecimal"/>
+
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nSolero Artesanal Fresa – Piezas – PZA"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/solerofresacong1_dul"
+                    android:layout_width="169dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Congelador 1"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/solerofresacong2_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:ems="10"
+                    android:hint="Congelador 2"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/solerofresacong3_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Congelador 3"
+                    android:inputType="numberDecimal" />
+
+            </TableRow>
+        </TableLayout>
+
+        <EditText
+            android:id="@+id/solerofresafisico_dul"
+            android:layout_width="169dp"
+            android:enabled="false"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Resultado"
+            android:layout_gravity="center"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nCornetto Oreo – Piezas – PZA"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/cornetooreocong1_dul"
+                    android:layout_width="169dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Congelador 1"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/cornetooreocong2_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:ems="10"
+                    android:hint="Congelador 2"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/cornetooreocong3_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Congelador 3"
+                    android:inputType="numberDecimal" />
+
+            </TableRow>
+        </TableLayout>
+
+        <EditText
+            android:id="@+id/cornetooreofisico_dul"
+            android:layout_width="169dp"
+            android:enabled="false"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Resultado"
+            android:layout_gravity="center"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nCornetto Cheesecake Frutos Rojos – Piezas – PZA"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/cornetofrutoscong1_dul"
+                    android:layout_width="169dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Congelador 1"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/cornetofrutoscong2_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:ems="10"
+                    android:hint="Congelador 2"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/cornetofrutoscong3_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Congelador 3"
+                    android:inputType="numberDecimal" />
+
+            </TableRow>
+        </TableLayout>
+
+        <EditText
+            android:id="@+id/cornetofrutosfisico_dul"
+            android:layout_width="169dp"
+            android:enabled="false"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Resultado"
+            android:layout_gravity="center"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nMicha Oreo – Piezas – PZA"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/michaoreocong1_dul"
+                    android:layout_width="169dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Congelador 1"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/michaoreocong2_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:ems="10"
+                    android:hint="Congelador 2"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/michaoreocong3_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Congelador 3"
+                    android:inputType="numberDecimal" />
+
+            </TableRow>
+        </TableLayout>
+
+        <EditText
+            android:id="@+id/michaoreofisico_dul"
+            android:layout_width="169dp"
+            android:enabled="false"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Resultado"
+            android:layout_gravity="center"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nMicha MM's – Piezas – PZA"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/michammcong1_dul"
+                    android:layout_width="169dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Congelador 1"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/michammcong2_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:ems="10"
+                    android:hint="Congelador 2"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/michammcong3_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Congelador 3"
+                    android:inputType="numberDecimal" />
+
+            </TableRow>
+        </TableLayout>
+
+        <EditText
+            android:id="@+id/michammfisico_dul"
+            android:layout_width="169dp"
+            android:enabled="false"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Resultado"
+            android:layout_gravity="center"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nMicha Mordisko – Piezas – PZA"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/michamordiskocong1_dul"
+                    android:layout_width="169dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Congelador 1"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/michamordiskocong2_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:ems="10"
+                    android:hint="Congelador 2"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/michamordiskocong3_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Congelador 3"
+                    android:inputType="numberDecimal" />
+
+            </TableRow>
+        </TableLayout>
+
+        <EditText
+            android:id="@+id/michamordiskofisico_dul"
+            android:layout_width="169dp"
+            android:enabled="false"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Resultado"
+            android:layout_gravity="center"
+            android:inputType="numberDecimal"/>
+
+
+
+
+        <Button
+            android:id="@+id/generarvaloresagua_dul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="50dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:text="Generar y Guardar Valores"
+            android:textColor="@android:color/background_light"
+            android:background="@drawable/borde_boton" />
+
+    </LinearLayout>
+
+
+</ScrollView>

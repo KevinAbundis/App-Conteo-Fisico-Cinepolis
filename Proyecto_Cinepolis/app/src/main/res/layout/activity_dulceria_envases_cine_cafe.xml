@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dulceria_Envases_Cine_Cafe">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="ENVASES CINE CAFE"
+            android:textColor="#FF0000"
+            android:textSize="24sp"/>
+
+        <Button
+            android:id="@+id/mostrarvaloresenvases_dul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:text="Recuperar Valores Ingresados"
+            android:textColor="@android:color/background_light"
+            android:background="@drawable/borde_boton" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nVaso 12 Onz Plástico Pet General – Piezas – PZA"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/vaso12onzmanga_dul"
+                    android:layout_width="169dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Mangas"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/vaso12onzpz_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:ems="10"
+                    android:hint="Piezas"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+        </TableLayout>
+
+
+        <EditText
+            android:id="@+id/vaso12onzfisico_dul"
+            android:layout_width="169dp"
+            android:enabled="false"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Resultado"
+            android:layout_gravity="center"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nVaso 16 Onz Plástico Pet General – Piezas – PZA"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/vaso16onzmanga_dul"
+                    android:layout_width="169dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Mangas"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/vaso16onzpz_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:ems="10"
+                    android:hint="Piezas"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+        </TableLayout>
+
+
+        <EditText
+            android:id="@+id/vaso16onzfisico_dul"
+            android:layout_width="169dp"
+            android:enabled="false"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Resultado"
+            android:layout_gravity="center"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nVaso 20 Onz Plástico Pet General – Piezas – PZA"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/vaso20onzmanga_dul"
+                    android:layout_width="169dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Mangas"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/vaso20onzpz_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:ems="10"
+                    android:hint="Piezas"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+        </TableLayout>
+
+
+        <EditText
+            android:id="@+id/vaso20onzfisico_dul"
+            android:layout_width="169dp"
+            android:enabled="false"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Resultado"
+            android:layout_gravity="center"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nVaso Trophy 12 Onz General – Piezas – PZA"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/vasotrophy12onzmanga_dul"
+                    android:layout_width="169dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Mangas"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/vasotrophy12onzpz_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:ems="10"
+                    android:hint="Piezas"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+        </TableLayout>
+
+
+        <EditText
+            android:id="@+id/vasotrophy12onzfisico_dul"
+            android:layout_width="169dp"
+            android:enabled="false"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Resultado"
+            android:layout_gravity="center"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nVaso Trophy 16 Onz General – Piezas – PZA"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/vasotrophy16onzmanga_dul"
+                    android:layout_width="169dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Mangas"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/vasotrophy16onzpz_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:ems="10"
+                    android:hint="Piezas"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+        </TableLayout>
+
+
+        <EditText
+            android:id="@+id/vasotrophy16onzfisico_dul"
+            android:layout_width="169dp"
+            android:enabled="false"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Resultado"
+            android:layout_gravity="center"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nVaso Trophy 20 Onz General – Piezas – PZA"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/vasotrophy20onzmanga_dul"
+                    android:layout_width="169dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Mangas"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/vasotrophy20onzpz_dul"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:ems="10"
+                    android:hint="Piezas"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+        </TableLayout>
+
+
+        <EditText
+            android:id="@+id/vasotrophy20onzfisico_dul"
+            android:layout_width="169dp"
+            android:enabled="false"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Resultado"
+            android:layout_gravity="center"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="\nVaso 4 Onz G. – Piezas – PZA"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+
+
+        <EditText
+            android:id="@+id/vaso4onzpiezas_dul"
+            android:layout_width="169dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Piezas"
+            android:layout_gravity="center"
+            android:inputType="numberDecimal"/>
+
+        <Button
+            android:id="@+id/generarvaloresenvases_dul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="50dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:text="Generar y Guardar Valores"
+            android:textColor="@android:color/background_light"
+            android:background="@drawable/borde_boton" />
+
+
+
+    </LinearLayout>
+
+</ScrollView>
