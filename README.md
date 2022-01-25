@@ -16,7 +16,7 @@ Menú Principal
 
 <img src="Screenshots%20Aplicación%20Cinépolis/Screenshot_20200508_000238_com.abundis.proyecto_cinepolis.jpg" width="300"> ... <img src="Screenshots%20Aplicación%20Cinépolis/Screenshot_20200508_000243_com.abundis.proyecto_cinepolis.jpg" width="300">
 
-Menú Dulcería
+Menú Almacén General
 
 <img src="Screenshots%20Aplicación%20Cinépolis/Screenshot_20200604_193704_com.abundis.proyecto_cinepolis.jpg" width="300"> ... <img src="Screenshots%20Aplicación%20Cinépolis/Screenshot_20200604_193714_com.abundis.proyecto_cinepolis.jpg" width="300"> ... <img src="Screenshots%20Aplicación%20Cinépolis/Screenshot_20200604_193723_com.abundis.proyecto_cinepolis.jpg" width="300"> 
 
