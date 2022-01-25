@@ -1,4 +1,4 @@
-## Aplicación Móvil de Conteo Físico Cinépolis 
+## Aplicación Móvil para Conteo Físico Cinépolis 
 
 Inicio de Sesión
 
@@ -18,15 +18,19 @@ Menú Principal
 
 Menú Almacén General
 
-<img src="Screenshots%20Aplicación%20Cinépolis/Screenshot_20200604_193704_com.abundis.proyecto_cinepolis.jpg" width="300"> ... <img src="Screenshots%20Aplicación%20Cinépolis/Screenshot_20200604_193714_com.abundis.proyecto_cinepolis.jpg" width="300"> ... <img src="Screenshots%20Aplicación%20Cinépolis/Screenshot_20200604_193723_com.abundis.proyecto_cinepolis.jpg" width="300"> 
+<img src="Screenshots%20Aplicación%20Cinépolis/Screenshot_20200604_193704_com.abundis.proyecto_cinepolis.jpg" width="300"> ... <img src="Screenshots%20Aplicación%20Cinépolis/Screenshot_20200604_193714_com.abundis.proyecto_cinepolis.jpg" width="300"> 
+
+<img src="Screenshots%20Aplicación%20Cinépolis/Screenshot_20200604_193718_com.abundis.proyecto_cinepolis.jpg" width="300"> ... <img src="Screenshots%20Aplicación%20Cinépolis/Screenshot_20200604_193723_com.abundis.proyecto_cinepolis.jpg" width="300"> 
 
 Conteo por Categoría
 
-<img src="Screenshots%20Aplicación%20Cinépolis/Screenshot_20200619_021133_com.abundis.proyecto_cinepolis.jpg" width="300"> ... <img src="Screenshots%20Aplicación%20Cinépolis/Screenshot_20200619_021148_com.abundis.proyecto_cinepolis.jpg" width="300"> ... <img src="Screenshots%20Aplicación%20Cinépolis/Screenshot_20200619_021153_com.abundis.proyecto_cinepolis.jpg" width="300">
+<img src="Screenshots%20Aplicación%20Cinépolis/Screenshot_20200619_021133_com.abundis.proyecto_cinepolis.jpg" width="300"> ... <img src="Screenshots%20Aplicación%20Cinépolis/Screenshot_20200619_021153_com.abundis.proyecto_cinepolis.jpg" width="300">
 
-Reportes de Conteo Físico - PDF
+Reporte de Conteo Físico - PDF
 
-<img src="Screenshots%20Aplicación%20Cinépolis/Screenshot_20200619_023138_com.huawei.hidisk.jpg" width="300"> ... <img src="Screenshots%20Aplicación%20Cinépolis/Screenshot_20200619_022125_com.abundis.proyecto_cinepolis.jpg" width="300"> ... <img src="Screenshots%20Aplicación%20Cinépolis/Screenshot_20200619_022130_com.abundis.proyecto_cinepolis.jpg" width="300">
+<img src="Screenshots%20Aplicación%20Cinépolis/Screenshot_20200604_200953_com.huawei.hidisk.jpg" width="300"> ... <img src="Screenshots%20Aplicación%20Cinépolis/Screenshot_20200619_023138_com.huawei.hidisk.jpg" width="300"> 
+
+<img src="Screenshots%20Aplicación%20Cinépolis/Screenshot_20200619_022125_com.abundis.proyecto_cinepolis.jpg" width="300"> ... <img src="Screenshots%20Aplicación%20Cinépolis/Screenshot_20200619_022130_com.abundis.proyecto_cinepolis.jpg" width="300">
 
 Presentaciones de Productos 
 
@@ -35,6 +39,14 @@ Presentaciones de Productos
 Acerca de Nosotros
 
 <img src="Screenshots%20Aplicación%20Cinépolis/Screenshot_20200604_153127_com.abundis.proyecto_cinepolis.jpg" width="300"> ... <img src="Screenshots%20Aplicación%20Cinépolis/Screenshot_20200604_153132_com.abundis.proyecto_cinepolis.jpg" width="300"> 
+
+Firebase - Authentication
+
+<img src="Screenshots%20Aplicación%20Cinépolis/FirebaseAuth.png"> 
+
+Firebase - Realtime Database
+
+<img src="Screenshots%20Aplicación%20Cinépolis/RealtimeDatabaseFirebase.png"> 
 
 <br><br>
 
